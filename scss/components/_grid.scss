@@ -1,9 +1,14 @@
 .grid {
   display: grid;
   height: 100vh;
-  grid-template-rows: auto auto 48px; // header, scroll-area, footer
+  grid-template-rows: auto auto 48px;
+  // header, scroll-area, footer
 }
 
 .grid__scroll-area {
   overflow-y: scroll;
+}
+
+.shadow {
+  box-shadow: 5px 12px 30px rgba(0, 0, 0, 0.4);
 }

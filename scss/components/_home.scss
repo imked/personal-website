@@ -1,11 +1,48 @@
-section {
-  color: grey;
-  height: 40vh;
-  width: 700px;
-  padding: 20px;
-  margin: 20px auto;
-  border: 10px solid lightsalmon;
+.home {
+  font-family: "Noto-sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
 }
-.icon {
+.skills,
+.cv {
+  background-color: #fff;
+  margin: 80px 10%;
+  padding: 40px;
+  width: 60%;
+  @media screen and (max-width: 400px) {
+    margin: 30px;
+    padding: 10px;
+    width: 80%;
+  }
+}
+
+.intro {
+  background-color: #fff;
+  margin: 80px 30%;
+  padding: 40px;
+  width: 60%;
+  @media screen and (max-width: 400px) {
+    margin: 30px;
+    padding: 10px;
+    width: 80%;
+  }
+}
+
+.intro,
+.skills,
+.cv {
   color: grey;
+}
+
+.tags {
+  padding: 0;
+}
+
+.tags > * {
+  background-color: grey;
+  display: inline-block;
+  color: white;
+  font-weight: 100;
+  margin: 0 3px 8px;
+  padding: 6px 8px;
 }
